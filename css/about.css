@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+
+.grid-nav {
+    display: grid;
+    gap: 50px;
+    position: absolute;
+    top: 20px;  /* distance from top */
+    left: 280px; /* distance from left */
+    font-family:'poppins';
+}
+
+.grid-nav a {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(42, 147, 239);
+    transition: all 0.3s ease;
+}
+
+.grid-nav a:hover {
+    font-size: 28px;
+    color: #6ab4e6;
+}
+
+
+.wrapper{
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.about-me{
+    background-color: rgb(191, 220, 247);
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    width: 500px;
+    border-radius: 15px;
+}
